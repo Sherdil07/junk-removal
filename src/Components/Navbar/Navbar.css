@@ -3,13 +3,16 @@
   display: flex;
   justify-content: space-between;
   padding: 10px 20px;
-  background: #f8f8f8;
+  background: #f9d84a;
 }
-
+.contact-info{
+  display: flex;
+  flex-direction: row;
+}
 .contact-info span {
   margin-right: 15px;
-  display: flex;
-  align-items: center;
+   display: flex;
+  align-items: center; 
 }
 
 .contact-info svg {
@@ -17,6 +20,8 @@
 }
 
 .social-icons a {
+  align-items: center;
+  display: flex;
   margin-right: 10px;
   font-size: 1.2rem;
   color: #333;
@@ -24,7 +29,7 @@
 }
 
 .social-icons a:hover {
-  color: #007bff; /* Change to desired hover color */
+  color: #02694a; /* Change to desired hover color */
   cursor: pointer;
 }
 
@@ -35,13 +40,25 @@
   padding: 10px 20px;
   background: #fff;
   border-bottom: 1px solid #e7e7e7;
+  height: 80px; /* Set a fixed height for the navbar */
+}
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  height: 100%; /* Make logo container take full height of navbar */
 }
 
 .navbar-logo a {
   text-decoration: none;
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: #333;
+}
+
+.logo-image {
+  max-height: 100%;
+  width: 50%;
+  object-fit: contain;
+  padding-top: 13%;
+  padding-right: 50%;
 }
 
 .menu-icon {
@@ -74,14 +91,17 @@
   padding: 5px 0;
   position: relative;
   transition: color 0.3s ease;
+  font-weight: bold;
 }
 
 .navbar-links a:hover {
-  color: #007bff; /* Change to desired hover color */
+  color: #F2AB3A;
+  font: bolder;
+   /* Change to desired hover color */
 }
 
 .contact-button {
-  background: #007bff;
+  background: black;
   color: #fff;
   border: none;
   padding: 10px 20px;
@@ -95,7 +115,7 @@
   left: 0;
   right: 0;
   height: 2px;
-  background: #007bff;
+  background: #F2AB3A;
 }
 
 /* Responsive Styles */
