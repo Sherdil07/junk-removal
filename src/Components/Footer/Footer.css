@@ -1,0 +1,113 @@
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0;
+    justify-items: center;
+    align-items: center;
+    background-color: #F9D84A;
+    padding: 20px 0; /* Adding some padding to the top and bottom */
+}
+
+.footer-logo-container {
+    width: 100%;
+    height: auto; /* Remove fixed height */
+    margin-left: auto;
+    padding-left: 6rem;
+    text-align: center; /* Center the logo container */
+}
+
+.footer-logo,
+.footer-store {
+    cursor: pointer;
+    display: block; /* Ensure block display for better spacing */
+    margin: 10px 0;
+    width: 50%; /* Adding margin for spacing between items */
+}
+
+.footer-column {
+    padding-right: 2rem;
+    text-align: center; /* Center the footer columns */
+}
+
+.footer-heading {
+    color: #333;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 1.125rem;
+    text-decoration: none;
+    text-align: left;
+    line-height: 1.75rem;
+    letter-spacing: 0.05em;
+    margin-bottom: 1rem; /* Adding margin to the bottom */
+}
+
+.footer-item {
+    color: #333;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: left;
+    line-height: 1.5rem;
+    letter-spacing: 0.05em;
+    margin-bottom: 0.5rem; /* Adding margin to the bottom */
+}
+
+.footer-divider-container {
+    position: relative; /* Position the container relatively */
+    width: 80%;
+    margin: 20px auto; /* Center the container */
+}
+
+.footer-divider {
+    width: 100%;
+    height: 1px;
+    background-color: #999;
+    opacity: 0.5;
+    border: none;
+    margin: 0; /* Remove margin to align properly */
+}
+
+.moving-truck {
+    position: absolute;
+    top: -30px; /* Adjust to align with the hr line */
+    left: 0;
+    font-size: 24px; /* Adjust size as needed */
+    color: #333; /* Adjust color if needed */
+    white-space: nowrap; /* Ensure truck icon doesn’t wrap */
+    width: 54%; /* Ensure it covers the hr line width */
+    text-align: center; /* Center the truck on the line */
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1.5rem 0;
+    background-color: #F9D84A; /* Matching the background color */
+}
+
+.footer-bottom-text {
+    color: #333;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 0.875rem;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: left;
+    line-height: 1.25rem;
+    letter-spacing: 0.05em;
+}
+
+.footer-bottom-subtext {
+    color: #333;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    font-size: 0.75rem;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: left;
+    line-height: 1rem;
+    letter-spacing: 0.05em;
+}
